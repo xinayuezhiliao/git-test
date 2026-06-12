@@ -23,3 +23,8 @@ target/
 build/
 dist/
 .vite/
+
+# WeChat miniprogram: appid 在 project.config.json 里（敏感信息）
+# 仓库只跟踪 project.config.json.example，clone 后复制为 project.config.json 并填入 appid
+project.config.json
+project.private.config.json
